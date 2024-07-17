@@ -1,0 +1,10 @@
+<h3>List of Products</h3>
+<ul>
+@for(prod of products; track prod.id){
+<li>
+{{prod.id}} - {{prod.title}} - {{prod.price}} - {{prod.description}} - {{prod.category}}
+</li>
+}@empty{
+ <li>There are no Courses</li>
+}
+ </ul>
