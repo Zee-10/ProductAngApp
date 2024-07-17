@@ -4,7 +4,7 @@ title: string;
 price: number;
 description: string;
 catergory: string;
-}
+
 
 constructor(id : number, title: string, price: number, description: string, catergory: string) {
   this.id = id;
@@ -12,4 +12,6 @@ constructor(id : number, title: string, price: number, description: string, cate
   this.price = price;
   this.description = description;
   this.catergory = catergory;
+}
+
 }

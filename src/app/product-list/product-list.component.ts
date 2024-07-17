@@ -5,8 +5,8 @@ import { ProductlistService } from '../product.service'
   selector: 'app-productlist',
   standalone: true,
   imports: [],
-  templateUrl: './productlist.component.html',
-  styleUrl: './productlist.component.css'
+  templateUrl: './product-list.component.html',
+  styleUrl: './product-list.component.css'
 })
 export class ProductlistComponent {
   products: Product[];
